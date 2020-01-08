@@ -19,8 +19,6 @@ class App < Sinatra::Base
    item = params["item"]
    @sessions[:item] = item
 
-   erb :index
-
  end
 
 end
